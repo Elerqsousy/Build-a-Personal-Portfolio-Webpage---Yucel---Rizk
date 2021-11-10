@@ -1,6 +1,20 @@
-@media (min-width: 600px) {
+@media (max-width: 1800px) {
   .card {
-    width:30%;
+    width: 30%;
+    margin: 2.5% 0 0 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 45%;
+    margin: 3.33% 0 0 0;
+  }
+}
+@media (max-width: 400px) {
+  .card {
+    width: 90%;
+    margin: 5% 0 0 0;
   }
 }
 
@@ -18,38 +32,67 @@
 .container {
   padding: 2px 16px;
 }
-#welcome-section{
-  height:100vh;
+#welcome-section {
+  height: 100vh;
+  background-color: azure;
+  width: 100%;
 }
 
 #porto {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 /* end of cards */
 
-#navbar{
+#navbar {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   background-color: purple;
   color: white;
-  text-align: centers
+  text-align: centers;
 }
 
-r .icon-div {
+.icon-div {
   display: flex;
   /* width: auto; */
   /* max-width: 100%; */
 }
 
-.icon-images {
-  width: ;
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (max-width: 600px) {
-  .card {
-    width:45%;
-  }
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.icon-images {
+  width: 25px;
+  height: auto;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: azure;
 }
