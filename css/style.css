@@ -13,3 +13,12 @@
     padding: 2px 16px;
   }
 
+.icon-div{
+  display:flex;
+  /* width: auto; */
+  /* max-width: 100%; */
+}
+
+.icon-images{
+  width: ;
+}
